@@ -1,0 +1,41 @@
+\\git commit 
+
+Esentially allows you to create a new snapshot of your 
+code which you can return to later, this is helpful 
+as it can give you points of your codes history and make changes and revert
+
+Allows you to add a message using git commit -m "blank here"
+
+\\git branch
+
+git branch creates an entirely new branch where you can
+can edit code without affecting the main line of code
+
+You can name the branch and rename the branch using -m
+
+\\git checkout
+
+Switches to a different branch 
+
+\\git pull
+
+runs git fetch then rebases, pulls in the information
+from a remote repository to current branch
+
+\\git push
+
+uploads local repository content to a remote repository
+
+\\git merge
+
+Merges the content from one branch to another branch
+
+\\git rebase
+
+This allows changes from one branch to another to be made
+However, this unlike merge doesn't create a new commit, instead
+it shifts the commits to a linear form
+
+\\git fetch
+
+downloads all of the brances from other repositories
